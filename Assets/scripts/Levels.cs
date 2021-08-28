@@ -65,8 +65,6 @@ public class Levels : MonoBehaviour
         //CMDebug.TextPopupMouse("Dead!");
         state = State.birdDead;
 
-        FunctionTimer.Create(() => {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");}, 1f); // 액션을 모노비헤이비어로 갖고 오는 커스텀 함수
     } // 1초 후에 게임 다시 시작
 
     private void Update()

@@ -9,7 +9,7 @@ public class GameHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("GameHandler.start");
+        
         /*GameObject gameobject = new GameObject("Pipe", typeof(SpriteRenderer));
         gameObject.GetComponent<SpriteRenderer>().sprite = GameAssets.GetInstance().pipeHeadSprite;
         */
